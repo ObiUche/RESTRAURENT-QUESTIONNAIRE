@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset = UTF-8>
+      <title>Sophies Steakhouse Review</title>
+
+      <link rel="stylesheet" href="styles.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"> 
+
+  </head>
+
+  <body class="review">
+
+    <h1 id="title">Sophies Steakhouse Review</h1>
+
+    <p id="description">Thank you for visiting please help us, help you by giving honest feedback</p>
+    <form id="survey-form">
+
+
+<!-- Customer discovery survey questions-->
+
+      <label id="name-label">Enter your Full name:<input id="name" type="text" placeholder="John Doe" required/>
+      </label>
+
+     
+<!-- Age Group Question -->
+
+      <label class="radio-button-inline" id="age-group-label">What age group do you belong to?
+      </label>
+      18-30<input type="radio" name="age-group" value="18-30"/>
+      31-40<input type="radio" name="age-group" value="31-40"/>
+      41-55<input type="radio" name="age-group" value="41-55"/>
+      Over 55<input type="radio" name="age-group" value="Over 55"/>
+      
+      
+
+<!-- Email Address -->
+
+      <label id="email-label">Enter your email address:<input type="email" name="email" placeholder="example@email.com" id="email" required/>
+      </label>
+
+<!-- Restraurant discovery-->
+
+      <label>Where did you discover our restaurant?
+        <select id="dropdown">
+          <option>Word of Mouth</option>
+          <option>Just Passing By</option>
+          <option>Facebook</option>
+          <option>Instagram</option>
+          <option>Twitter</option>
+          <option>Other</option>
+        </select>
+      </lable>
+
+<!-- Dining Frequency -->
+
+      <label>How often fo you dine with us?
+      This was my first time<input type="radio" name="frequency"/>
+      I visit you occasionally<input type="radio" name="frequency"/>
+      I come by at least once a month<input type="radio" name="frequency"/>
+      I dine with you weekly<input type="radio" name="frequency"/>
+      </label>
+
+ <!-- if promotions are working or not ?-->
+
+      <label>Did you any of our discount or special offers?
+
+      Yes<input type="checkbox"/>
+      No<input type="checkbox"/>
+
+      </label>
+
+      <label>If Yes state which one(s)
+        <textarea placeholder="Enter text here"></textarea>
+      </label>
+
+<!-- Food Quality -->
+
+      <label>How would you rate the quality of our food?</label>
+      5 (Great Quality)<input type="checkbox" value="5" class="checkbox"/>
+      4<input type="checkbox" value="4" class="checkbox"/>
+      3<input type="checkbox" value="3" class="checkbox"/>
+      2<input type="checkbox" value="2" class="checkbox"/>
+      1 (Poor Quality)<input type="checkbox" value="1" class="checkbox"/>
+      
+
+      <label>How would you rate our customer service? </label>
+      Excellent<input type="radio" name="customer-service" value="1"/>Good<input type="radio" name="customer-service" value="2"/>
+      Fair<input type="radio" name="customer-service" value="3"/>
+      Bad<input type="radio" name="customer-service" value="4"/>
+      
+
+      <label>Did you feel that Sophies accommodated your dietary restrictions?</label>
+      Yes<input type="checkbox"/>
+      No<input type="checkbox"/>
+      
+      
+      <input type="submit" id="submit" class="submit"/>
+      
+
+    </form>
+
+    </html>
+
+  
+
+
